@@ -1,0 +1,96 @@
+<!-- CSS -->
+
+body {
+  background-color: #e0e0e0;
+}
+#mainboxleft {
+  height: 50px;
+  background-color: ;
+}
+#logoborder {
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+  border-radius: 20px;
+  border: 2px solid #e0e0e0;
+}
+.btn {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  border-radius: 0px;
+}
+#topbtn1:hover {
+  background-color: #e0e0e0;
+  color: black;
+  border-color: black
+}
+#topbtn2:hover {
+  background-color: #e0e0e0;
+  color: black;
+  border-color: black
+}
+#topbtn3:hover {
+  background-color: #e0e0e0;
+  color: black;
+  border-color: black
+}
+.row {
+  width: 100%;
+}
+#mainbox {
+  background-color: #eee;
+}
+#mainboxright {
+  height: 50px;
+  background-color: ;
+}
+#headermain {
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+#headerboxleft {
+  height: 50px;
+  background-color: ;
+}
+#headerboxright {
+  height: 50px;
+  background-color: ;
+}
+#topbox {
+  height: 30px;
+}
+#bottombox {
+  background-color: red;
+  height: 25px;
+}
+#mainimage {
+}
+#aboutusmain {
+  background-color: #e0e0e0;
+}
+#aboutusheader {
+  background-color: #999;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+#ourmissionheader {
+  background-color: #999;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+#contactusheader {
+  background-color: #999;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+#contactlistleft {
+  float: left;
+}
+#contactlistright {
+  float: right;
+  float: bottom;
+}
