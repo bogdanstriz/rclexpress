@@ -209,7 +209,7 @@ if(IsInjected($visitor_email))
 //Gets value of submited info
 
 	$name = $_POST['name'];
-	$pnumber = $_POST['pnumber'];
+	$_subject = $_POST['_subject'];
 	$rnumber = $_POST['rnumber'];
 	$visitor_email = $_POST['email'];
 	$questcom = $_POST['questcom']
