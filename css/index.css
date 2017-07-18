@@ -37,6 +37,11 @@ body {
   color: black;
   border-color: black
 }
+#topbtn4:hover {
+  background-color: #e0e0e0;
+  color: black;
+  border-color: black
+}
 .row {
   width: 100%;
 }
@@ -64,7 +69,7 @@ body {
   height: 30px;
 }
 #bottombox {
-  background-color: red;
+  background-color: #800000;
   height: 25px;
 }
 #mainimage {
@@ -93,4 +98,28 @@ body {
 #contactlistright {
   float: right;
   float: bottom;
+}
+
+/* Navigation Bar at the top of the screen, it doesn't move when you scroll down */
+#topnavbarfixed {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999999;
+
+}
+#trackingheader {
+  background-color: #999;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+#trackingbox {
+  background-color: white;
+  border: 3px solid;
+  border-radius: 20px;
+  border-color: #eee;
+  margin-top: 50px;
 }

@@ -21,7 +21,36 @@ $(document).ready(funtion() {
 </head>
 <body>
 
-<div class="container-fluid">
+<div class="container-fluid" style="margin-top: 50px">
+
+<!-- ------------------------- Buttons ------------------------------ -->
+
+          <div class= "row" id= "topnavbarfixed">
+          <div class= "mx-auto" style= "height: 30px; width: 100%"></div>
+      
+      <div class= "col-md-3" style= "padding: 0px" >
+          <a href= "#aboutusheaderabove"   >
+            <button id="topbtn1" class="btn">About us</button></a>
+          </div>
+       
+       <div class= "col-md-3" style= "padding: 0px"  >
+            <a href= "#ourmissionheaderabove"  ><button id="topbtn2" class="btn" >Our Mission</button></a>
+           </div>
+
+       <div class= "col-md-3" style= "padding: 0px" >
+            <a href= "#trackingheaderabove"><button id="topbtn3" class="btn">Track a Shipment</button></a>
+            </div>
+       
+       <div class= "col-md-3" style= "padding: 0px" >
+            <a href= "#contactusheaderabove"><button id="topbtn4" class="btn">Contact us</button></a>
+            </div>
+       
+
+          </div>
+
+          <!-- ------------ Buttons End ----------------------------  -->
+
+
   <div id="topbox" class="mx-auto"></div>
   <div class="row mx-auto">
     <div class="col-lg-2" id="mainboxleft"></div>
@@ -31,6 +60,9 @@ $(document).ready(funtion() {
         <div class="col-sm-1" id="headerboxleft"></div>
         <div class="mx-auto col-lg-10">
           <div class= "mx-auto" style= "height: 30px"></div>
+
+          <!-- LOGO ON TOP OF PAGE ---------------->
+
           <div id= "logoborder" class= "mx-auto">
           <img class= "mx-auto img-fluid" id= "mainimage" style= "width: 60%" src="https://ci4.googleusercontent.com/proxy/Jo76O8jz-afLLbsJrd1LfKZEKIuUMXYP4bpuFCkWCK81gnj9dI8zI_q_PYmPMYlvemuT6lqymCN3Dh5Bm22ajXGRWPCEEOCD25kwrvCl87XHjB7y4701dzL-4Bco36U0go2HlaeCM38nwGVvag=s0-d-e1-ft#https://docs.google.com/a/rl-exp.com/uc?id=0B5dhzyeFOfoUUlZPcElXSDEzWVE&export=download" alt= "RCL Logo">
         </div>
@@ -47,19 +79,9 @@ $(document).ready(funtion() {
         <div class="" id="bottombox"></div>
         
         <div class= "col-lg-12 mx-auto" style= "padding: 0px">
-          <div class= "row mx-auto">
-          
-         <div class= "col-md-4" style= "padding: 0px" >
-          <a href= "#aboutusheader"   >
-            <button id="topbtn1" class="btn">About us</button></a>
-          </div>
-          <div class= "col-md-4" style= "padding: 0px"  >
-            <a href= "#ourmissionheader"  ><button id="topbtn2" class="btn" >Our Mission</button></a>
-           </div>
-       <div class= "col-md-4" style= "padding: 0px" >
-            <a href= "#contactusheader"><button id="topbtn3" class="btn">Contact us</button></a>
-            </div>
-          </div>
+
+
+
         </div>
         
         
@@ -79,6 +101,11 @@ $(document).ready(funtion() {
       <div class= "mx-auto" style= "height: 40px"></div>
       <div class= "mx-auto col-lg-10" id= "aboutusmain">
         <div class= "mx-auto" style= "height: 30px"></div>
+
+
+<!-- -------------------------- ABOUT US PART --------------------------- -->
+
+        <div class= "mx-auto" style= "height: 60px" id="aboutusheaderabove"></div>
         <div class= "text-center mx-auto" id= "aboutusheader">
           <h2>About Us</h2>
         </div>
@@ -91,7 +118,13 @@ $(document).ready(funtion() {
           <div class= "col-md-6"><img class= "img-fluid" style= "width: 100%" src= "css/mack-truck-reefer.jpg" alt= "Red-Truck-With-Trailer"></div>
         </div>
         <div class= "mx-auto" style= "height: 150px"></div>
-        
+
+
+
+<!-- -------------------------- OUR MISSION PART ------------------------ -->
+
+
+        <div class= "mx-auto" style= "height: 60px" id="ourmissionheaderabove"></div>
          <div class= "text-center mx-auto" id= "ourmissionheader">
           <h2>Our Mission, Our Promise</h2>
         </div>
@@ -104,8 +137,93 @@ $(document).ready(funtion() {
           <div class= "col-md-6"><img class= "img-fluid" style= "width: 100%" src= "css/ford - 350.jpg" alt= "Small-Straight-White-Ford"></div>
         </div>        
         <div class= "mx-auto" style= "height: 150px"></div>
+
+
+
+
+<!-- -------------------------- TRACKING PART -------------------------- -->
+
+      <div class= "mx-auto" style= "height: 60px" id="trackingheaderabove"></div>
+      <div class="mx-auto">
+      <div class= "text-center mx-auto" id="trackingheader">
+      <h2>Track a Shipment</h2>
+        </div>
+        <div class= "mx-auto" style= "height: 50px"></div>
+        <div class="row mx-auto">
+          <div class="col-md-3 mx-auto"></div>
+
+          <!-- --------------- Tracking Box ---------------------------- -->
+
+          <div class="col-md-6 mx-auto" id="trackingbox">
+          <div>
+            <h5 class="mx-auto text-center" style="margin-top: 20px"><b>Tracking</b></h5>
+            </div>
+            <!-- ------------ the rest of the tracking part /emails etc. ----------------- -->
+
+            <div class="mx-auto text-center" style="margin-top: 35px">
+            <h6 class="mx-auto text-center">Please enter the following information</h6>
+            <!-- -------- FORM ------- --> 
+
+
+            <form method="post" action="css/tracking.php" autocomplete="on">
+
+            <div style="margin-top: 10px">
+            <small class="text-center">Your Name</small>
+            <div>
+            <input type="text" name="Name" placeholder="Required*" required>
+            </div>
+            </div>           
+            <div class="mx-auto" style="margin-top: 20px">
+            <small class="text-center" >RCL Pro Number</small>
+            <div>
+            <input type="text" name="pnumber" placeholder="Required*" required>
+            </div>
+            </div>
+            <div style="margin-top: 10px">
+            <small class="text-center">Your Refrence Number</small>
+            <div>
+            <input type="text" name="rnumber">
+            </div>
+            </div>
+            <div style="margin-top: 10px">
+            <small class="text-center">Your e-mail</small>
+            <div>
+            <input type="email" name="email" placeholder="Required*" required>
+            </div>
+            </div>
+            <div style="margin-top: 10px">
+            <small class="text-center">Additional Message/Questions</small>
+            <div>
+            <textarea name="questcom" cols="22"></textarea>
+            </div>
+            </div>
+            <div class="mx-auto" style="margin-top: 25px; margin-bottom: 25px;">
+              <input type="submit" onclick="Your request has been submited!" name=" Submit" value="Track" style="border-radius: 5px">
+            </div>
+            </form>
+              
+            </div>
+          
+          </div>
+
+
+
+          <div class="col-md-3 mx-auto"></div>
+        </div>
+
+
+        </div>
+
+
+
+
+
+<!-- -------------------------- CONTACT US PART ------------------------ -->
+
+
         
-        <div >
+        <div style="margin-top: 100px">
+        <div class= "mx-auto" style= "height: 60px" id="contactusheaderabove"></div>
         <div class= "text-center mx-auto" id= "contactusheader">
           <h2>Contact Us</h2>
         </div>
