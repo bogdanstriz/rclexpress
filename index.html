@@ -92,6 +92,10 @@ $(document).ready(funtion() {
       <div style="height: 30px"></div>
      
         <div class= "mx-auto col-lg-10" style= "width: 100%">
+
+
+        <!-- ----------------- MAIN PAGE IMAGE ------------------ -->
+
         <img class="img-fluid mx-auto" style= "width: 100%" src="http://images.buysellsearch.com/image/orig/c4ce3fb53399c7432937f735157e9516.jpg" alt="Expeditor Straight Truck">
         
         <div class="text-center mx-auto">
@@ -105,7 +109,7 @@ $(document).ready(funtion() {
 
 <!-- -------------------------- ABOUT US PART --------------------------- -->
 
-        <div class= "mx-auto" style= "height: 60px" id="aboutusheaderabove"></div>
+        <div class= "mx-auto" style= "height: 60px" id="aboutusheaderabove"></div> <!-- Buttons link here so that the header ontop of the screen doesn't cover up the actual header -->
         <div class= "text-center mx-auto" id= "aboutusheader">
           <h2>About Us</h2>
         </div>
@@ -124,7 +128,7 @@ $(document).ready(funtion() {
 <!-- -------------------------- OUR MISSION PART ------------------------ -->
 
 
-        <div class= "mx-auto" style= "height: 60px" id="ourmissionheaderabove"></div>
+        <div class= "mx-auto" style= "height: 60px" id="ourmissionheaderabove"></div> <!-- Buttons link here so that the header ontop of the screen doesn't cover up the actual header -->
          <div class= "text-center mx-auto" id= "ourmissionheader">
           <h2>Our Mission, Our Promise</h2>
         </div>
@@ -143,7 +147,7 @@ $(document).ready(funtion() {
 
 <!-- -------------------------- TRACKING PART -------------------------- -->
 
-      <div class= "mx-auto" style= "height: 60px" id="trackingheaderabove"></div>
+      <div class= "mx-auto" style= "height: 60px" id="trackingheaderabove"></div> <!-- Buttons link here so that the header ontop of the screen doesn't cover up the actual header -->
       <div class="mx-auto">
       <div class= "text-center mx-auto" id="trackingheader">
       <h2>Track a Shipment</h2>
@@ -157,20 +161,28 @@ $(document).ready(funtion() {
           <div class="col-md-6 mx-auto" id="trackingbox">
           <div>
             <h5 class="mx-auto text-center" style="margin-top: 20px"><b>Tracking</b></h5>
+
+
+
+
             </div>
             <!-- ------------ the rest of the tracking part /emails etc. ----------------- -->
 
             <div class="mx-auto text-center" style="margin-top: 35px">
             <h6 class="mx-auto text-center">Please enter the following information</h6>
+
+
+
+
             <!-- -------- FORM ------- --> 
 
 
-            <form method="post" action="https://formspree.io/operations@rl-exp.com" autocomplete="on">
+            <form method="post" action="https://formspree.io/operations@rl-exp.com" autocomplete="on"> <!-- Sends form to formspree.io which then sends it to operations@rl-exp.com -->
 
             <div style="margin-top: 10px">
             <small class="text-center">Company Name</small>
             <div>
-            <input type="text" name="_subject" placeholder="Required*" required>
+            <input type="text" name="Company Name:" placeholder="Required*" required>
             </div>
             </div>           
             <div class="mx-auto" style="margin-top: 20px">
@@ -197,6 +209,14 @@ $(document).ready(funtion() {
             <textarea name="Questions or Comments:" cols="22"></textarea>
             </div>
             </div>
+            <!-- Hidden inputs for subject and honeypot -->
+            <input type="hidden" name="_next" value="css/tracking.html">
+            <input type="hidden" name="_sunject" value="!!!WEBSITE TRACKING UPDATE!!!">
+            <input type="text" name="_gotcha" style="display: none;">
+
+            <!-- End hidden inputs -->
+
+
             <div class="mx-auto" style="margin-top: 25px; margin-bottom: 25px;">
               <input type="submit" onclick="Your request has been submited!" name=" Submit" value="Track" style="border-radius: 5px">
             </div>
@@ -223,7 +243,7 @@ $(document).ready(funtion() {
 
         
         <div style="margin-top: 100px">
-        <div class= "mx-auto" style= "height: 60px" id="contactusheaderabove"></div>
+        <div class= "mx-auto" style= "height: 60px" id="contactusheaderabove"></div> <!-- Buttons link here so that the header ontop of the screen doesn't cover up the actual header -->
         <div class= "text-center mx-auto" id= "contactusheader">
           <h2>Contact Us</h2>
         </div>
@@ -244,7 +264,7 @@ $(document).ready(funtion() {
           </div>
           <div class= "col-md-6 mx-auto" >
             <ul style= "list-style-type:none" id= "contactlistright">
-              <li>&nbsp;</li>
+              <li>&nbsp;</li> <!-- Spaces are here so that the facebook and insta links are on the bottom of this <div> -->
               <li>&nbsp; </li>
               <li>&nbsp; </li>
               <li>&nbsp; </li>
@@ -275,6 +295,10 @@ $(document).ready(funtion() {
 <div style= "height: 20px"></div>
   
 </div>
+
+
+<!-- -------------- Page Veiw Counter ------------- -->
+
 <div class= "mx-auto text-center"><!-- hitwebcounter Code START -->
 <a href="http://www.hitwebcounter.com" target="_blank">
 <img src="http://hitwebcounter.com/counter/counter.php?page=6711982&style=0007&nbdigits=6&type=page&initCount=25000" title="http://www.hitwebcounter.com/" Alt="http://www.hitwebcounter.com/"   border="0" >
@@ -284,6 +308,10 @@ $(document).ready(funtion() {
                                         font-size: 8px; color: #9F9F97; text-decoration: underline ;">
                                         </a>   
                             </div>
+
+
+
+
         <div style= "height: 20px"></div>
 <div class= "mx-auto text-center"><small>Created by Bogdan Strizheus</small></div>
 </body>
