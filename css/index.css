@@ -1,11 +1,14 @@
 <!-- CSS -->
 
-body {
-  background-color: #e0e0e0;
+html {
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
 }
+
 #mainboxleft {
   height: 50px;
-  background-color: ;
+  background-color: transparent;
 }
 #logoborder {
   background-color: white;
@@ -15,7 +18,7 @@ body {
   border: 2px solid #e0e0e0;
 }
 .btn {
-  background-color: #000;
+  background-color: #800000;
   color: white;
   text-align: center;
   display: inline-block;
@@ -23,47 +26,46 @@ body {
   border-radius: 0px;
 }
 #topbtn1:hover {
-  background-color: #e0e0e0;
+  background-color: transparent;
   color: black;
   border-color: black
 }
 #topbtn2:hover {
-  background-color: #e0e0e0;
+  background-color: transparent;
   color: black;
   border-color: black
 }
 #topbtn3:hover {
-  background-color: #e0e0e0;
+  background-color: transparent;
   color: black;
   border-color: black
 }
 #topbtn4:hover {
-  background-color: #e0e0e0;
+  background-color: transparent;
   color: black;
   border-color: black
 }
 .row {
   width: 100%;
 }
-#mainbox {
-  background-color: #eee;
+
 }
 #mainboxright {
   height: 50px;
-  background-color: ;
+  background-color: transparent;
 }
 #headermain {
-  background-color: white;
+  background-color: transparent;
   padding-top: 50px;
   padding-bottom: 40px;
 }
 #headerboxleft {
   height: 50px;
-  background-color: ;
+  background-color: transparent;
 }
 #headerboxright {
   height: 50px;
-  background-color: ;
+  background-color: transparent;
 }
 #topbox {
   height: 30px;
@@ -71,26 +73,36 @@ body {
 #bottombox {
   background-color: #800000;
   height: 25px;
+  border: 1px;
+  border-radius: 5px;
 }
 #mainimage {
 }
 #aboutusmain {
-  background-color: #e0e0e0;
+  background-color: rgba(128,0,0,0.5);
+  border-radius: 5px;
+
 }
 #aboutusheader {
   background-color: #999;
   padding-top: 10px;
   padding-bottom: 15px;
+  border: 1px;
+  border-radius: 5px;
 }
 #ourmissionheader {
   background-color: #999;
   padding-top: 10px;
   padding-bottom: 15px;
+  border: 1px;
+  border-radius: 5px;
 }
 #contactusheader {
   background-color: #999;
   padding-top: 10px;
   padding-bottom: 15px;
+  border: 1px;
+  border-radius: 5px;
 }
 #contactlistleft {
   float: left;
@@ -103,17 +115,21 @@ body {
 /* Navigation Bar at the top of the screen, it doesn't move when you scroll down */
 #topnavbarfixed {
   overflow: hidden;
-  background-color: #333;
+  background-color: white;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 999999;
+  border-bottom: 5px solid;
+  border-color: #800000;
 
 }
 #trackingheader {
   background-color: #999;
   padding-top: 10px;
   padding-bottom: 15px;
+  border: 1px;
+  border-radius: 5px;
 }
 
 #trackingbox {
@@ -123,3 +139,32 @@ body {
   border-color: #eee;
   margin-top: 50px;
 }
+
+#slide-1 {background-image:url('truck-sunset.jpg');
+               width: 100%;
+
+}
+
+
+
+#slide-2 {background-image:url('38429689_xl.jpg');
+               width: 100%;}
+
+#slide-3  {background-image:url('10318583_xl.jpg')}
+
+}
+
+#slide-4 {background-image:url('40788978_xl.jpg') !important ;
+} 
+
+/* Slide 5 */
+#slide-5 {background-image:url('28583065_xl.jpg')}
+
+.homeSlide{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
